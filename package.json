@@ -1,17 +1,14 @@
 {
   "name": "ultimate-game-launcher",
   "private": true,
-  "version": "0.1.0",
+  "version": "0.0.1",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
     "preview": "vite preview",
     "tauri": "tauri",
-    "postinstall": "simple-git-hooks"
-  },
-  "simple-git-hooks": {
-    "pre-commit": "bun pretty-quick --check"
+    "format": "pretty-quick"
   },
   "dependencies": {
     "react": "^18.3.1",
@@ -26,7 +23,6 @@
     "@vitejs/plugin-react": "^4.3.4",
     "prettier": "^3.5.3",
     "pretty-quick": "^4.1.1",
-    "simple-git-hooks": "^2.12.1",
     "typescript": "~5.6.2",
     "vite": "^6.0.3"
   }
