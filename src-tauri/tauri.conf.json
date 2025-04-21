@@ -13,6 +13,7 @@
     "windows": [
       {
         "title": "Ultimate Game Launcher",
+        "decorations": false,
         "width": 800,
         "height": 600
       }
